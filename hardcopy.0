@@ -1,0 +1,51 @@
+  is_pressing_up -- False
+  np -- <NeoPixel object at 3ffe6ba0>
+  dial -- ADC(Pin(36))
+  NeoPixel -- <class 'NeoPixel'>
+  check_buttons -- <function check_buttons at 0x3ffe6df0>
+  is_pressing_right -- False
+  on_joystick_click -- <function on_joystick_click at 0x3ffe6fa0>
+  on_dial -- <function on_dial at 0x3ffe6fd0>
+  DIAL_PIN -- 36
+  BUTTON_B_PIN -- 18
+  is_pressing_click -- False
+  JOYSTICK_RIGHT_PIN -- 25
+  JOYSTICK_CLICK_PIN -- 27
+  joystick_left -- Pin(26)
+  is_pressing_b -- False
+  ADC -- <class 'ADC'>
+  joystick_down -- Pin(34)
+  joystick_right -- Pin(25)
+  WIDTH -- 16
+  is_pressing_a -- False
+  __file__ -- PixelKit.py
+  clear -- <function clear at 0x3ffe7210>
+  SIZE -- 128
+  button_a -- Pin(23)
+  button_b -- Pin(18)
+  JOYSTICK_UP_PIN -- 35
+  neopixel_pin -- Pin(4)
+  dial_value -- 4095
+  render -- <function render at 0x3ffe7220>
+  check_controls -- <function check_controls at 0x3ffe6bb0>
+  BUTTON_NONE_PIN -- 5
+  HEIGHT -- 8
+  JOYSTICK_DOWN_PIN -- 34
+  __name__ -- PixelKit
+  JOYSTICK_LEFT_PIN -- 26
+  check_dial -- <function check_dial at 0x3ffe6f50>
+  check_joystick -- <function check_joystick at 0x3ffe6d90>
+  set_pixel -- <function set_pixel at 0x3ffe71b0>
+  on_button_b -- <function on_button_b at 0x3ffe6fc0>
+  get_index_from_coordinate -- <function get_index_from_coordinate at 0x3ffe6fe0>
+  joystick_up -- Pin(35)
+  on_button_a -- <function on_button_a at 0x3ffe6fb0>
+>>> kit.np
+<NeoPixel object at 3ffe6ba0>
+>>> kit.WIDTH
+16
+>>> kit.HEIGHT
+8
+>>> kit.check_joystick()
+>>> kit.check_dial()
+>>> kit.check_dial()
